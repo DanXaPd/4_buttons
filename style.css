@@ -1,0 +1,77 @@
+.main_buttoms{
+    width: 76%;
+    height: 50px;
+    margin: 25px auto;
+}
+.main_buttoms button{
+    width: 19%;
+    height: 50px;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    transition: all 0.5s;
+}
+.main_buttoms button:hover{
+    background-color: white;
+    color: black;
+}
+.all{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin: 100px auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.cv{
+    width: 50%;
+    height: 100%;
+    border: 3px solid black;
+    border-radius: 100px;
+    text-align: center;
+    list-style-type: none;
+}
+img{
+    border-radius: 20px;
+}
+h1{
+    font-size: xx-large;
+}
+h2{
+    font-size: large;
+}
+.registration_1{
+    display: block;
+    width: 30%;
+    height: 100%;
+    border: 3px solid black;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+}
+input{
+    width: 80%;
+    height: 30px;
+    margin-bottom: 25px;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+.registration_1 button{
+    width: 50%;
+    height: 30px;
+    margin-bottom: 25px;
+    background-color: lightgray;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+.registration_1 button:hover{
+    background-color: white;
+}
+.cv{
+    display: none;
+}
+.registration_1{
+    display: none;
+}
